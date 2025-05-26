@@ -1,0 +1,7 @@
+@charset "utf=8";  
+table{border: solid 3px 	#0d00ff;}
+td,th{border: solid 1px 	#1d00bf;}
+/* ↑外枠の設定 */
+table{margin-bottom: 20px;}
+caption{font-size: 30px;
+color: #120bef;}
