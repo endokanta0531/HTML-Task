@@ -1,0 +1,10 @@
+h1{ color: rgba(0,255,5,1);}
+p{ color: rgba(0,255,5,1);}
+
+body{background-color: rgba(8,173,168,155);
+font-family: "メイリオ",serif;}
+
+.text-aqua{color:aqua;}
+.text-gleen{color: greenyellow;}
+.text-blue{color:blue}
+#bg-yellow{background-color: yellow;}
