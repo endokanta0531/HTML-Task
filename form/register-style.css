@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.must{color: rgb(255, 47, 47);}
+th {
+background-color:#5D8165;/* 背景色を指定する */
+text-align: center; /* インライン要素の位置を指定する */
+padding: 3px; /* 要素の余白を指定する(上下左右) */
+}
+td {
+background-color:#547443;/* 背景色を指定する */
+text-align: center; /* インライン要素の位置を指定する */
+padding: 3px; /* 要素の余白を指定する(上下左右) */
+}
