@@ -12,3 +12,4 @@ h2{text-align: center;}
 a{width: 50%; border-radius: 30px; margin: 0 auto; padding: 10px;color: aliceblue;
 background-color: rgb(125, 13, 13); display: block; text-decoration: none;}
 h1,div{text-align: center;}
+h2,p{width: 90%;}
