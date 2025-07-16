@@ -11,7 +11,7 @@
 <body>
 
     <form action="#" method="post" enctype="multipart/form-data">
-
+    <p>必要事項を入力の上、送信ボタンを押してください。</p>
         <table>
             <tr>
                 <th>ID<span class="must">(必須)</span></th>
@@ -19,7 +19,8 @@
             </tr>
             <tr>
                 <th>パスワード<span class="must">(必須)</span></th>
-                <td>:<input type="password" name="password"required></td>
+                <td>:<input type="password" name="password"required> <label><input type="checkbox" name="view-pasword" >パスワードを表示</label> </td>
+                
             </tr>
             <tr>
                 <th>氏名<span class="must">(必須)</span></th>
@@ -28,15 +29,15 @@
 
             <tr>
                 <th>住所</th>
-                <td>:〒<input type="text" name="yubin" size="" placeholder="例:000-0000"><br>
-                    <input type="text" name="jusho" size="60" placeholder="例:岩手県盛岡市盛岡"><br>
+                <td>:〒<input type="text" name="yubin" size="" placeholder="例:000-0000"disabled><br>
+                    <input type="text" name="jusho" size="60" placeholder="例:岩手県盛岡市盛岡"disabled><br>
                     <input type="text" name="banchi" size="60"placeholder="例:20-25"><br>
                     <input type="text" name="tatemono" size="60"placeholder="例:マンション岩手 102号室">
                 </td>
             </tr>
             <tr>
                 <th>TEL</th>
-                <td>:<input type="tel" name="tel"placeholder="例:000-0000-0000"></td>
+                <td>:<input type="tel" name="tel"placeholder="例:000-0000-0000"required></td>
             </tr>
 
             <tr>
@@ -66,7 +67,7 @@
             </tr>
             <tr>
                 <th>ご意見</th>
-                <td><textarea name="multiple"cols="100"rows="15">特になし</textarea></td>
+                <td><textarea name="multiple"cols="50"rows="10">特になし</textarea></td>
             </tr>
 
         </table>
